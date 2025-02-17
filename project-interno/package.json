@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --base-href /githubpage-example/project-interno/ && cp -r dist/project-interno/* project-interno/"
   },
   "private": true,
   "dependencies": {

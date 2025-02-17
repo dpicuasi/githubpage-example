@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/githubpage-example/project-interno/",
             "outputPath": "dist/project-interno",
             "index": "src/index.html",
             "browser": "src/main.ts",
