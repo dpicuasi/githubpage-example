@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href /githubpage-example/project-interno/ && cp -r dist/project-interno/* project-interno/"
+    "deploy": "ng build --base-href /githubpage-example/project-interno/ && xcopy /E /I /Y C:\\java\\workspace_angular\\githubpage-example\\project-interno\\dist\\project-interno\\* project-interno"
   },
   "private": true,
   "dependencies": {
